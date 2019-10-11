@@ -7,11 +7,11 @@
 */
 
 body {
-  font: 1em Arial;
+  font: 1em src="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet";
 }
 
 p {
-  font: 22pt sans-serif;
+  font: 22pt Josefin Sans, sans-serif;
   margin: 20px 20px 0px 20px;
 }
 
@@ -71,7 +71,7 @@ button::-moz-focus-inner {
 
 /* indicates when a square has been selected */
 #puzzle .selected {
-  background-color: orange;
+  background-color: yellow;
 }
 
 /* indicates that the square is part of a word that has been found */ 
@@ -81,7 +81,7 @@ button::-moz-focus-inner {
 }
 
 #puzzle .solved {
-  background-color: purple;
+  background-color: red;
   color: white;
 }
 

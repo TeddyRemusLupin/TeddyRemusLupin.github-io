@@ -13,13 +13,20 @@ canvas {
 <body onload="startGame()">
 <script>
 
-var myGamePiece;
+var redGamePiece;
+var yellowGamePiece;
+var blueGamePiece;
+
 var myObstacles = [];
 var myScore;
 
 function startGame() {
-    myGamePiece = new component(30, 30, "red", 10, 120);
-    myGamePiece.gravity = 0.05;
+    redGamePiece = new component(30, 30, "red", 10, 10);
+    yellowGamePiece = new component(30, 30, "yellow", 20, 30);
+    blueGamePiece = new component(30, 30, "blue", 10, 20);
+    redGamePiece.gravity = 0.05;
+    yellowGamePiece.gravity = 0.05;
+    blueGamePiece.gravity = 0.05;
     //This is the jumping little square. From left to right are: width, height, color, x,y.//
 
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
@@ -103,11 +110,16 @@ function component(width, height, color, x, y, type) {
 function updateGameArea() {
     var x, height, gap, minHeight, maxHeight, minGap, maxGap;
     for (i = 0; i < myObstacles.length; i += 1) {
-        if (myGamePiece.crashWith(myObstacles[i])) {
+        if (redGamePiece.crashWith(myObstacles[i])) {
             return;
         } 
     }
     myGameArea.clear();
+    redGamePiece.x +=1 ;
+    yellowGamePiece.x +=1 ;
+    yellowGamePiece.y +=1 ;
+    blueGamePiece.x += 1;
+    blueGamePiece.y -=1 ;
     myGameArea.frameNo += 1;
     if (myGameArea.frameNo == 1 || everyinterval(150)) {
         x = myGameArea.canvas.width;
@@ -126,8 +138,11 @@ function updateGameArea() {
     }
     myScore.text="SCORE: " + myGameArea.frameNo;
     myScore.update();
-    myGamePiece.newPos();
-    myGamePiece.update();
+    redGamePiece.newPos();
+
+    redGamePiece.update();
+    yellowGamePiece.update();
+    blueGamePiece.update();
 }
 
 function everyinterval(n) {
@@ -136,12 +151,16 @@ function everyinterval(n) {
 }
 
 function accelerate(n) {
-    myGamePiece.gravity = n;
+    redGamePiece.gravity = n;
+    yellowGamePiece.gravity = n;
+    blueGamePiece.gravity = n;
+    
 }
 </script>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <p>Use the ACCELERATE button to stay in the air</p>
+<p>You are the red one, do no</p>
 <p>How long can you stay alive?</p>
 </body>
 </html>
