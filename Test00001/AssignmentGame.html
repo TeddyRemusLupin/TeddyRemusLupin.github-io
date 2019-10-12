@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+<title>Guess the number</title>
+</head>
+<body>
+<h1 style="
+border-style: outset;
+border-width: 5px;
+border-color: lavender;
+background-color: bisque;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+height: 60px;
+width: 300px;
+padding-top: 25px;
+"> Guess the number</h1>
+<p style="margin-left:60px;
+margin-bottom: 20px;
+margin-top:20px;">QI, Xin(1155128611)'s Game</p>
+<input type="button" style="margin-left: 100px;"id="result" name="result" onclick="checknum()" value="Start the game...">
+
+<script>
+//get a random number to guess//
+function GetRandomNum(Min,Max)
+{ 
+var Range = Max - Min; 
+var Rand = Math.random(); 
+return(Min + Math.round(Rand * Range)); 
+} 
+
+//write something in the box//
+function checknum(){
+var num = GetRandomNum(1,100);
+alert("Ready to guess 10 times and see what you get?")
+
+var i;
+for(i=1;i<=10;i++){
+var nums=prompt("Guess a number between 1 and 100. You can only guess for 10 times. Good luck!","");
+if(i==1){
+ if(nums==num){
+         alert("Exactly!You are so lucky!");
+   break;
+     }else{
+          if(nums<num){
+       document.write("Your answer is "+ nums +" . "+"You have entered " + i +" time(s), your answer is smaller.<br>");
+       }else{
+    document.write("Your answer is "+ nums +" . "+"You have entered " + i +" time(s), your answer is bigger.<br>");
+ }
+}
+}
+if(i>1&&i<=10){
+      if(nums==num){
+         alert("Exactly! Congratulations!");
+   break;
+      }else{
+          if(nums<num){
+       document.write("Your answer is "+ nums +" . "+"You have entered " + i +" time(s), your answer is smaller.<br>");
+       }else{
+    document.write("Your answer is "+ nums +" . "+"You have entered " + i +" time(s), your answer is bigger.<br>");
+  }
+}
+}
+if(i==10){
+       if(nums!=num){
+       document.write("No chance, what a pity! <br> The number is "+ num +" !");
+    return false;
+       }
+ }
+}
+}
+</script>
+</body>
+</html>
