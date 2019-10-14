@@ -3,6 +3,7 @@
 <title>Guess the number</title>
 </head>
 <body>
+
 <h1 style="
 border-style: outset;
 border-width: 5px;
@@ -14,10 +15,12 @@ height: 60px;
 width: 300px;
 padding-top: 25px;
 "> Guess the number</h1>
+
 <p style="margin-left:60px;
 margin-bottom: 20px;
 margin-top:20px;">QI, Xin(1155128611)'s Game</p>
-<input type="button" style="margin-left: 100px;"id="result" name="result" onclick="checknum()" value="Start the game...">
+
+<input type="button" style="margin-left:100px;" id="result" name="result" onclick="checknum()" value="Start the game...">
 
 <script>
 //get a random number to guess//
@@ -50,7 +53,7 @@ if(i==1){
 }
 if(i>1&&i<=10){
       if(nums==num){
-         alert("Exactly! Congratulations!");
+         alert("The number is"+ nums +" ! Congratulations!");
    break;
       }else{
           if(nums<num){
