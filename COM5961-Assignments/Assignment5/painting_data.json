@@ -1,0 +1,295 @@
+{
+    "data" :
+    [
+        {
+          "Painting": "The Card Players",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "$338.4"
+        },
+        {
+          "Painting": "Bal du Moulin de la Galette",
+          "Artist": "Pierre-Auguste Renoir",
+          "Sale Price (in millions)": "$78"
+        },
+        {
+          "Painting": "Mont Saint Victoire",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "$100"
+        },
+        {
+          "Painting": "Le Bassin aux Nymphéas",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£40.9"
+        },
+        {
+          "Painting": "Rideau, Cruchon et Compotier",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "$60.5"
+        },
+        {
+          "Painting": "Haystacks",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$110.7"
+        },
+        {
+          "Painting": "Haystacks",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$81.4"
+        },
+        {
+          "Painting": "Nympheas en Fleur",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$84.68"
+        },
+        {
+          "Painting": "Spring (Jeanne Demarsy)",
+          "Artist": "Edouard Manet",
+          "Sale Price (in millions)": "$65"
+        },
+        {
+          "Painting": "Nympheas",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$43.72"
+        },
+        {
+          "Painting": "Danseuse en Repos",
+          "Artist": "Edgar Degas",
+          "Sale Price (in millions)": "$37"
+        },
+        {
+          "Painting": "Self-Portrait with a Palette",
+          "Artist": "Edouard Manet",
+          "Sale Price (in millions)": "£22"
+        },
+        {
+          "Painting": "Boulevard Montmartre (Spring Morning)",
+          "Artist": "Camille Pissarro",
+          "Sale Price (in millions)": "£19.9"
+        },
+        {
+          "Painting": "Le Palais Ducal",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£27.53"
+        },
+        {
+          "Painting": "Exterieur de la Gare Saint-Lazare",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$32.9"
+        },
+        {
+          "Painting": "Exterieur de la Gare Saint-Lazare",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£24.9"
+        },
+        {
+          "Painting": "Le Bassin Aux Nympheas",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$31.81"
+        },
+        {
+          "Painting": "Poplars",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$22.48"
+        },
+        {
+          "Painting": "Nympheas",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£21.00"
+        },
+        {
+          "Painting": "Matinée sur la Seine",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$23.37"
+        },
+        {
+          "Painting": "Les Glaccons Bennecourt",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$23.37"
+        },
+        {
+          "Painting": "Vue sur L'Estaque et le Château d'If",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "£13.522"
+        },
+        {
+          "Painting": "Le pont d'Argenteuil et la Seine ( The Argenteuil Bridge and the Seine)",
+          "Artist": "Gustave Caillebotte",
+          "Sale Price (in millions)": "$18.00"
+        },
+        {
+          "Painting": "Iris mauves (Purple Irises)",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£10.83"
+        },
+        {
+          "Painting": "Glacons, Effet Blanc",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$16.125"
+        },
+        {
+          "Painting": "Les meules à Giverny (the Giverny Grainstacks)",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$16.405"
+        },
+        {
+          "Painting": "L'ombrelle",
+          "Artist": "Pierre-Auguste Renoir",
+          "Sale Price (in millions)": "£9.67"
+        },
+        {
+          "Painting": "La Seine a Lavacourt",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$15.83"
+        },
+        {
+          "Painting": "Jeune fille dans le jardin de Giverny (Young Girl in the Giverny Garden)",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$16.06"
+        },
+        {
+          "Painting": "Effet de neige à Giverny (Snow Effect at Giverny)",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$15.00"
+        },
+        {
+          "Painting": "Danseuses",
+          "Artist": "Edgar Degas",
+          "Sale Price (in millions)": "$10.72"
+        },
+        {
+          "Painting": "Au Parc Monceau",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£6.31"
+        },
+        {
+          "Painting": "Trois danseuses (Three Dancers)",
+          "Artist": "Edgar Degas",
+          "Sale Price (in millions)": "$11.925"
+        },
+        {
+          "Painting": "Lilas et Roses (Lilac and Roses)",
+          "Artist": "Edouard Manet",
+          "Sale Price (in millions)": "$12.96"
+        },
+        {
+          "Painting": "Femme nue couchée, Gabrielle (Gabrielle: Nude woman lying down)",
+          "Artist": "Pierre-Auguste Renoir",
+          "Sale Price (in millions)": "$10.16"
+        },
+        {
+          "Painting": "Jeunes filles jouant au volant (Young Girls Playing at the Wheel)",
+          "Artist": "Auguste Renoir",
+          "Sale Price (in millions)": "$11.36"
+        },
+        {
+          "Painting": "Dans les coulisses (In the Wings)",
+          "Artist": "Edgar Degas",
+          "Sale Price (in millions)": "£9.23"
+        },
+        {
+          "Painting": "Apres Le Dejeuner (After Lunch)",
+          "Artist": "Berthe Morisot",
+          "Sale Price (in millions)": "£6.98"
+        },
+        {
+          "Painting": "La Rue Saint-Lazare, temps lumineux (Rue Saint-Lazare in Daylight)",
+          "Artist": "Camille Pissarro",
+          "Sale Price (in millions)": "$12.35"
+        },
+        {
+          "Painting": "Au Petit-Gennevilliers",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$11.36"
+        },
+        {
+          "Painting": "Saule pleureur (Weeping Willow)",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£8.90"
+        },
+        {
+          "Painting": "La route de Vétheuil, effet de neige",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$11.44"
+        },
+        {
+          "Painting": "L'Italienne",
+          "Artist": "Edouard Manet",
+          "Sale Price (in millions)": "$11.00"
+        },
+        {
+          "Painting": "Arbres et Maison au bord to l'eau (Trees and House next to the Water)",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "$11.13"
+        },
+        {
+          "Painting": "Vétheuil",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£7.54"
+        },
+        {
+          "Painting": "Prairie à Giverny",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "£7.54"
+        },
+        {
+          "Painting": "La source (Nu allongé)",
+          "Artist": "Pierre-Auguste Renoir",
+          "Sale Price (in millions)": "£5.08"
+        },
+        {
+          "Painting": "Pommes sur un linge (Apples on a cloth)",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "$9.12"
+        },
+        {
+          "Painting": "Bouquet of Gadiolas, Lilies and Dasies (Bouquet de Glaieuls, Lis et Marguerites)",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$9.55"
+        },
+        {
+          "Painting": "L'Ile aux Orties",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$8.11"
+        },
+        {
+          "Painting": "Gabrielle Au Miroir (Gabrielle at the Mirror)",
+          "Artist": "Pierre-Auguste Renoir",
+          "Sale Price (in millions)": "$9.08"
+        },
+        {
+          "Painting": "Les deux soeurs (The Two Sisters)",
+          "Artist": "Pierre-Auguste Renoir",
+          "Sale Price (in millions)": "$8.00"
+        },
+        {
+          "Painting": "La Cote Saint Denis a Pontoise",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "$8.64"
+        },
+        {
+          "Painting": "Le Rio de la Salute",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$8.18"
+        },
+        {
+          "Painting": "Le Pont de l'Europe, esquisse",
+          "Artist": "Gustave Caillebotte",
+          "Sale Price (in millions)": "$8.18"
+        },
+        {
+          "Painting": "Buste de femme, de profil",
+          "Artist": "Pierre-Auguste Renoir",
+          "Sale Price (in millions)": "$8.18"
+        },
+        {
+          "Painting": "Nature Morte",
+          "Artist": "Paul Cezanne",
+          "Sale Price (in millions)": "$8.13"
+        },
+        {
+          "Painting": "Le Givre (The Frost)",
+          "Artist": "Claude Monet",
+          "Sale Price (in millions)": "$8.42"
+        }
+      ]
+}
