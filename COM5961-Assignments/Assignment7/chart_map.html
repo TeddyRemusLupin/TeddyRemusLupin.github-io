@@ -49,7 +49,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
         <h1>Museums with Impressionism</h1>
-          <div class="card" style="width: 50rem;">
+          <div class="card" style="width: 30rem;">
             <div class="card-body">
               <h5 class="card">Which museums are exhibiting impressionism paintings now?</h5>
               <p id="welcome" class="card">Let's discover and know where to find them!</p>
@@ -85,18 +85,18 @@
 
 
     var items = [];
-    var airtable_read_endpoint = "https://api.airtable.com/v0/appbH7TRmDavRetpi/Paintings?api_key=keywrQWiluRxtIAp8";
+    var airtable_read_endpoint = "https://api.airtable.com/v0/appbH7TRmDavRetpi/painting_number?api_key=keywrQWiluRxtIAp8";
  
 
     var data = [];
     $.getJSON(airtable_read_endpoint, function(result) {
            $.each(result.records, function(key,value) {
                items = {};
-                   items["name"] = value.fields.name;
+                   items["name"] = value.fields.Name;
                    items["url"] = value.fields.url;
                    items["image_url"] = value.fields.img_url;
-                   items["latitud"] = value.fields.latitud;
-                   items["longitud"] = value.fields.longitud;
+                   items["latitud"] = value.fields.Lat;
+                   items["longitud"] = value.fields.Lng;
                    data.push(items);
                    console.log(items);
             }); // end .each
