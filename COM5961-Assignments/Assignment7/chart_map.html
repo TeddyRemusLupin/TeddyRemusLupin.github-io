@@ -66,7 +66,7 @@
                 <table id="table2" width="100%" class="table table-bordered"></table>
           </div><!-- table responsive -->
           <div id="chart" class="c3"></div>
-          <h1>Leaflet Example</h1>
+          <h1>Museums with Impressionism</h1>
           <div class="row">
              <div class="col-xs-12 col-sm-12 col-md-12">
                <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Districts</button><br>
@@ -81,9 +81,8 @@
 
     var map = L.map('map')
           .addLayer(mapboxTiles)
-          .setView([44.958812, -93.274162], 1);
-
-
+          .setView([44.958812, 86.725838], 1);
+    
     var items = [];
     var airtable_read_endpoint = "https://api.airtable.com/v0/appbH7TRmDavRetpi/painting_number?api_key=keywrQWiluRxtIAp8";
  
@@ -92,11 +91,11 @@
     $.getJSON(airtable_read_endpoint, function(result) {
            $.each(result.records, function(key,value) {
                items = {};
-                   items["Name"] = value.fields.Name;
+                   items["name"] = value.fields.Name;
                    items["url"] = value.fields.url;
                    items["image_url"] = value.fields.img_url;
-                   items["Lat"] = value.fields.Lat;
-                   items["Lng"] = value.fields.Lng;
+                   items["latitud"] = value.fields.Lat;
+                   items["longitud"] = value.fields.Lng;
                    data.push(items);
                    console.log(items);
             }); // end .each
