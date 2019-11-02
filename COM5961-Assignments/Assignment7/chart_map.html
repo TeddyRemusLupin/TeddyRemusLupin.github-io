@@ -39,7 +39,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
           <li><a href="index.html">Home page</a></li>
-          <li class="active"><a href="test_getjson.html">Museums with Impressionism</a></li>
+          <li class="active"><a href="chart_map.html">Museums with Impressionism</a></li>
         </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -51,11 +51,11 @@
         <h1>Museums with Impressionism</h1>
           <div class="card" style="width: 30rem;">
             <div class="card-body">
-              <h5 class="card">Which museums are exhibiting impressionism paintings now?</h5>
-              <p id="welcome" class="card">Let's discover and know where to find them!</p>
+              <h5 class="card">Some interesting knowledge on impressionism</h5>
+              <p id="welcome" class="card">Let's discover now!</p>
             </div>
           </div><!-- end card -->
-          <div class="well"><p id="demo">Airtable is a wonderful spreadsheet-like database with many useful features for data modeling and basic analytics. When used with other data visualization libraries, it can be a great tool for rapid prototyping</div>
+          <div class="well"><p id="demo">Where are these impressionism paintings now? Which artists drew the top 58 most expensive impressionism paintings? Where can we find the paintings?</div>
           <!-- Sign and date the page, it's only polite! -->
           <button type="button" class="btn btn-warning" id='get_data'>Show Table</button><br>
           <div class="table-responsive">
@@ -66,7 +66,7 @@
                 <table id="table2" width="100%" class="table table-bordered"></table>
           </div><!-- table responsive -->
           <div id="chart" class="c3"></div>
-          <h1>Museums with Impressionism</h1>
+          <h1>Where can we find impressionism paintings?</h1>
           <div class="row">
              <div class="col-xs-12 col-sm-12 col-md-12">
                <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Districts</button><br>
@@ -77,44 +77,44 @@
     </div><!--end row -->
   </div><!-- container -->
   <script>
-    var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
-
-    var map = L.map('map')
-          .addLayer(mapboxTiles)
-          .setView([44.958812, 86.725838], 1);
+        var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
     
-    var items = [];
-    var airtable_read_endpoint = "https://api.airtable.com/v0/appbH7TRmDavRetpi/painting_number?api_key=keywrQWiluRxtIAp8";
- 
-
-    var data = [];
-    $.getJSON(airtable_read_endpoint, function(result) {
-           $.each(result.records, function(key,value) {
-               items = {};
-                   items["name"] = value.fields.Name;
-                   items["url"] = value.fields.url;
-                   items["image_url"] = value.fields.img_url;
-                   items["latitud"] = value.fields.Lat;
-                   items["longitud"] = value.fields.Lng;
-                   data.push(items);
-                   console.log(items);
-            }); // end .each
-    }); // end getJSON
-  </script>
-
-  <script>
-    function show_districts(){
-
-      for (var i in data) {
-          var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud });
-          L.marker( latlng )
-              .bindPopup( '<a href="' + data[i].url + '" target="_blank">' + '<img src="' + data[i].image_url+'" width = "80px"><br>'+data[i].name + '</a>' )
-              .addTo(map);
-      }
-
-    }
-
-  </script>
+        var map = L.map('map')
+              .addLayer(mapboxTiles)
+              .setView([48.860148, 2.326553], 1);
+    
+    
+        var items = [];
+        var airtable_read_endpoint = "https://api.airtable.com/v0/app8tZeVrnHGULnCU/Table%201?api_key=keywrQWiluRxtIAp8";
+    
+        var data = [];
+        $.getJSON(airtable_read_endpoint, function(result) {
+               $.each(result.records, function(key,value) {
+                   items = {};
+                       items["name"] = value.fields.Name;
+                       items["url"] = value.fields.url;
+                       items["image_url"] = value.fields.img_url;
+                       items["latitud"] = value.fields.Lat;
+                       items["longitud"] = value.fields.Lng;
+                       data.push(items);
+                       console.log(items);
+                }); // end .each
+        }); // end getJSON
+      </script>
+    
+      <script>
+        function show_districts(){
+    
+          for (var i in data) {
+              var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud });
+              L.marker( latlng )
+                  .bindPopup( '<a href="' + data[i].url + '" target="_blank">' + '<img src="' + data[i].image_url+'" width = "80px"><br>'+data[i].name + '</a>' )
+                  .addTo(map);
+          }
+    
+        }
+    
+      </script>
 
   <script src='scriptlib2.js'></script>
 </body>
