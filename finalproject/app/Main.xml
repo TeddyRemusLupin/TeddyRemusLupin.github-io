@@ -1,0 +1,35 @@
+﻿<project version="2.9" name="finalproject" ID="2E390FBE-3400-EA11-B9B8-ACDE48001122">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtWeb" pageSize="(1100,6000)" backgroundColor="4294967295" fontSize="0" fontFamily="" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="index" ID="9A3B0FBE-3400-EA11-B9B8-ACDE48001122" expanded="False" code="3pSkMXhd7b" thumbCode="3pSkMXhd7b" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="C4FD67B2C811BFE1FED49C0FA0BE7790.jpg"/>
+        <image key="3702A63E1D1582F1FAD334F96FA8FAFD.jpg"/>
+        <image key="C5995350C2D2FECF8F0628FAC47690D1.png"/>
+      </images>
+    </page>
+    <page name="painting" ID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" expanded="True" code="ZPT6lLZXKc" thumbCode="ZPT6lLZXKc" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="artist" ID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" expanded="True" code="gUYe3pL9i2" thumbCode="gUYe3pL9i2" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="museum" ID="FC3B63C5-8500-EA11-B9E6-ACDE48001122" expanded="True" code="5yN8mqjipY" thumbCode="5yN8mqjipY" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="recommendation" ID="A8A64CD9-8500-EA11-B9E6-ACDE48001122" expanded="True" code="LbGQOyBE8M" thumbCode="LbGQOyBE8M" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="C4FD67B2C811BFE1FED49C0FA0BE7790.jpg"/>
+      </images>
+    </page>
+    <page name="fun_facts" ID="96341B1F-DB01-EA11-A940-ACDE48001122" expanded="True" code="gAL6GvvhyT" thumbCode="gAL6GvvhyT" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="contact_me" ID="76920E12-8600-EA11-B9E6-ACDE48001122" expanded="False" code="ZpFVAei28U" thumbCode="ZpFVAei28U" status="psWhite" isfolder="False" isshownode="True"/>
+  </pages>
+  <trash/>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="3702A63E1D1582F1FAD334F96FA8FAFD.jpg"/>
+    <image key="C5995350C2D2FECF8F0628FAC47690D1.png"/>
+    <image key="C4FD67B2C811BFE1FED49C0FA0BE7790.jpg"/>
+  </images>
+</project>

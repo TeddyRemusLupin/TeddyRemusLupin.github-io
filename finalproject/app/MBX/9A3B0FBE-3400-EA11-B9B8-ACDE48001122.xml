@@ -1,0 +1,300 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="9A3B0FBE-3400-EA11-B9B8-ACDE48001122" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="3000" mobileScreenScale="0">
+  <controls controlCount="35">
+    <control controlID="6E653DF1-3400-EA11-B9B8-ACDE48001122" controlTypeID="MenuBar" x="0" y="0" w="1100" h="48" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="9A3B0FBE-3400-EA11-B9B8-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Impressionism+Finder">
+          <area shape="0" alt="" ID="{2CAD6D87-9000-EA11-B9E6-ACDE48001122}" coords="(0,0,164,48)"/>
+        </link>
+        <link targetPageID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Painting">
+          <area shape="0" alt="" ID="{E6B66D87-9000-EA11-B9E6-ACDE48001122}" coords="(164,0,245,48)"/>
+        </link>
+        <link targetPageID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Artist">
+          <area shape="0" alt="" ID="{9AB76D87-9000-EA11-B9E6-ACDE48001122}" coords="(245,0,309,48)"/>
+        </link>
+        <link targetPageID="FC3B63C5-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Museum">
+          <area shape="0" alt="" ID="{30B86D87-9000-EA11-B9E6-ACDE48001122}" coords="(309,0,394,48)"/>
+        </link>
+        <link targetPageID="A8A64CD9-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Recommendation">
+          <area shape="0" alt="" ID="{D2C06D87-9000-EA11-B9E6-ACDE48001122}" coords="(394,0,535,48)"/>
+        </link>
+        <link targetPageID="76920E12-8600-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="+Fun+Facts">
+          <area shape="0" alt="" ID="{86C16D87-9000-EA11-B9E6-ACDE48001122}" coords="(535,0,630,48)"/>
+        </link>
+        <link targetPageID="76920E12-8600-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Contact+Me+">
+          <area shape="0" alt="" ID="{4067924D-DB01-EA11-A940-ACDE48001122}" coords="(630,0,737,48)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Impressionism+Finder%2CPainting%2CArtist%2CMuseum%2CRecommendation%2C+Fun+Facts%2CContact+Me+</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+    </control>
+    <control controlID="1ABB112A-3500-EA11-B9B8-ACDE48001122" controlTypeID="Image" x="50" y="89" w="1000" h="600" zOrder="1">
+      <URL>C5995350C2D2FECF8F0628FAC47690D1.png</URL>
+      <showText>False</showText>
+    </control>
+    <control controlID="30A2B992-3600-EA11-B9B8-ACDE48001122" controlTypeID="TextArea" x="179" y="334" w="744" h="162" zOrder="2">
+      <borderColor>4294967295</borderColor>
+      <font family="Times+New+Roman" displayName="Times+New+Roman" postScript="TimesNewRomanPSMT" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Even+if+you+know+nothing+about+what+impressionism+is+and+its+history%2C+you+can+always+find+a+speical+feeling+when+appreciating+impressionism+paintings.+Want+to+see+a+famous+impressionism+artwork+or+Monet's+paintings+in+museums%3F+Impressionism+Finder+will+help+you+to+seek+for+which+museums+they+are+exhibited+now!+It+can+also+tell+you+how+to+find+and+plan+a+visit+to+the+museum(s).</text>
+      <textColor>4294967295</textColor>
+      <textSize>24</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9EC03730-3900-EA11-B9B8-ACDE48001122" controlTypeID="Button" x="298" y="536" w="509" h="38" zOrder="3">
+      <color>2231409151</color>
+      <borderColor>4278190080</borderColor>
+      <borderVisible>False</borderVisible>
+      <opacity>0.800000011920929</opacity>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A8A64CD9-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Trip+Planner">
+          <area shape="0" alt="" ID="{34D898B5-9000-EA11-B9E6-ACDE48001122}" coords="(0,0,509,38)"/>
+        </link>
+      </links>
+      <font family="Times+New+Roman" displayName="Times+New+Roman+Bold" postScript="TimesNewRomanPS-BoldMT" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Start+your+journey+on+impressionism+paintings+with+the+website+now!</text>
+      <textColor>4294940928</textColor>
+      <textSize>16</textSize>
+      <textWordWrap>False</textWordWrap>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="8C81959B-3900-EA11-B9B8-ACDE48001122" controlTypeID="Label" x="274" y="216" w="559" h="69" zOrder="4">
+      <font family="Marker+Felt" displayName="Marker+Felt+Wide" postScript="MarkerFelt-Wide" weightStyle="Wide" weight="700" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Impressionism+Finder</text>
+      <textColor>3003095296</textColor>
+      <textSize>60</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsItalic]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D2D38A7B-3A00-EA11-B9B8-ACDE48001122" controlTypeID="Image" x="50" y="807" w="470" h="310" zOrder="5">
+      <URL>C4FD67B2C811BFE1FED49C0FA0BE7790.jpg</URL>
+    </control>
+    <control controlID="72C8DE92-3A00-EA11-B9B8-ACDE48001122" controlTypeID="TextArea" x="50" y="1150" w="470" h="210" zOrder="6">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Nullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.%0ANullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="2AA899A9-3A00-EA11-B9B8-ACDE48001122" controlTypeID="Image" x="571" y="807" w="471" h="310" zOrder="7">
+      <URL>3702A63E1D1582F1FAD334F96FA8FAFD.jpg</URL>
+    </control>
+    <control controlID="B0C532A2-3C00-EA11-B9B8-ACDE48001122" controlTypeID="Label" x="50" y="728" w="270" h="48" zOrder="8">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Gallery">
+          <area shape="0" alt="" ID="{80222230-0F01-EA11-B9E6-ACDE48001122}" coords="(0,0,270,48)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Find+by+Painting</text>
+      <textColor>4294940928</textColor>
+      <textSize>40</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B81B00E0-3C00-EA11-B9B8-ACDE48001122" controlTypeID="Label" x="571" y="728" w="224" h="48" zOrder="9">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Artists">
+          <area shape="0" alt="" ID="{9E7C2230-0F01-EA11-B9E6-ACDE48001122}" coords="(0,0,224,48)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Find+by+Artist</text>
+      <textColor>4294940928</textColor>
+      <textSize>40</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="5A6FD3E4-3C00-EA11-B9B8-ACDE48001122" controlTypeID="TextArea" x="571" y="1150" w="479" h="252" zOrder="10">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Nullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.%0ANullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="2E667F17-8E00-EA11-B9E6-ACDE48001122" controlTypeID="Label" x="50" y="1442" w="282" h="48" zOrder="11">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Find+by+Museum</text>
+      <textColor>4294940928</textColor>
+      <textSize>40</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1880EC5A-8E00-EA11-B9E6-ACDE48001122" controlTypeID="Label" x="571" y="1442" w="279" h="48" zOrder="12">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Recommenation</text>
+      <textColor>4294940928</textColor>
+      <textSize>40</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E08AA320-8F00-EA11-B9E6-ACDE48001122" controlTypeID="Button" x="50" y="1370" w="110" h="32" zOrder="13">
+      <color>3372259839</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Gallery">
+          <area shape="0" alt="" ID="{063F2530-0F01-EA11-B9E6-ACDE48001122}" coords="(0,0,110,32)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Learn+More</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>8</radius>
+    </control>
+    <control controlID="10E25159-1101-EA11-B9E6-ACDE48001122" controlTypeID="Image" x="50" y="1517" w="470" h="310" zOrder="14">
+      <URL>C4FD67B2C811BFE1FED49C0FA0BE7790.jpg</URL>
+    </control>
+    <control controlID="7A2631C1-1101-EA11-B9E6-ACDE48001122" controlTypeID="Image" x="571" y="1517" w="471" h="310" zOrder="15">
+      <URL>3702A63E1D1582F1FAD334F96FA8FAFD.jpg</URL>
+    </control>
+    <control controlID="7AA367CC-1101-EA11-B9E6-ACDE48001122" controlTypeID="TextArea" x="50" y="1865" w="470" h="210" zOrder="16">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Nullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.%0ANullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E04F80D3-1101-EA11-B9E6-ACDE48001122" controlTypeID="TextArea" x="571" y="1865" w="470" h="210" zOrder="17">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Nullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.%0ANullam+tempor+tortor+in+cursus+gravida.+Sed+fermentum+quam+eu+libero+condimentum+tincidunt.+Suspendisse+potenti.+Sed+consectetur%2C+nunc+sit+amet+auctor+venenatis%2C+eros+lectus+interdum+urna%2C+et+gravida+augue+augue+in+purus.+Fusce+fringilla+lectus+vitae+lacus+vulputate%2C+sed+feugiat+felis+congue.+Nunc+vitae+consequat+felis%2C+tincidunt+vehicula+mauris.+Fusce+nibh+velit%2C+porta+a+facilisis+vel%2C+semper+ut+justo.</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="38C32CF7-1101-EA11-B9E6-ACDE48001122" controlTypeID="Button" x="571" y="1372" w="110" h="28" zOrder="18">
+      <color>3372259839</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Artists">
+          <area shape="0" alt="" ID="{063F2530-0F01-EA11-B9E6-ACDE48001122}" coords="(0,0,110,28)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Learn+More</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>8</radius>
+    </control>
+    <control controlID="32DFDB41-3901-EA11-B9E6-ACDE48001122" controlTypeID="Button" x="50" y="2085" w="110" h="28" zOrder="19">
+      <color>3372259839</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Gallery">
+          <area shape="0" alt="" ID="{063F2530-0F01-EA11-B9E6-ACDE48001122}" coords="(0,0,110,28)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Learn+More</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>8</radius>
+    </control>
+    <control controlID="442A917A-3901-EA11-B9E6-ACDE48001122" controlTypeID="Button" x="571" y="2085" w="110" h="28" zOrder="20">
+      <color>3372259839</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Artists">
+          <area shape="0" alt="" ID="{063F2530-0F01-EA11-B9E6-ACDE48001122}" coords="(0,0,110,28)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Learn+More</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>8</radius>
+    </control>
+    <control controlID="F2159D6F-3A01-EA11-B9E6-ACDE48001122" controlTypeID="Label" x="209" y="1068" w="73" h="17" zOrder="21">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Contact+Me</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1C3A9D4B-DD01-EA11-A940-ACDE48001122" controlTypeID="Label" x="468" y="2137" w="165" h="48" zOrder="22">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="fun_facts">
+          <area shape="0" alt="" ID="{307F738A-0502-EA11-A940-ACDE48001122}" coords="(0,0,165,48)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Fun+Facts</text>
+      <textColor>4294940928</textColor>
+      <textSize>40</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4A2A8836-DF01-EA11-A940-ACDE48001122" controlTypeID="Image" x="50" y="2215" w="218" h="240" zOrder="23"/>
+    <control controlID="CAAF536A-DF01-EA11-A940-ACDE48001122" controlTypeID="Image" x="309" y="2211" w="218" h="240" zOrder="24"/>
+    <control controlID="D8B4B770-DF01-EA11-A940-ACDE48001122" controlTypeID="Image" x="577" y="2211" w="218" h="240" zOrder="25"/>
+    <control controlID="2E084F7B-DF01-EA11-A940-ACDE48001122" controlTypeID="Image" x="832" y="2211" w="218" h="240" zOrder="26"/>
+    <control controlID="782F7A24-E001-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="50" y="2479" w="218" h="86" zOrder="27">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="AADAF4C7-DF01-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="50" y="2479" w="218" h="86" zOrder="28">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="fun_facts">
+          <area shape="0" alt="" ID="{D6FA748A-0502-EA11-A940-ACDE48001122}" coords="(0,0,218,86)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Top+58+Most+Expensive+Paintings</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="88A3F11E-E001-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="309" y="2479" w="218" h="86" zOrder="29">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="468F2FD3-DF01-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="309" y="2479" w="218" h="86" zOrder="30">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="fun_facts">
+          <area shape="0" alt="" ID="{DA2D758A-0502-EA11-A940-ACDE48001122}" coords="(0,0,218,86)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Relationships+among+Impressionism+Artists</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4417B305-E001-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="577" y="2479" w="218" h="86" zOrder="31">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="fun_facts">
+          <area shape="0" alt="" ID="{B651758A-0502-EA11-A940-ACDE48001122}" coords="(0,0,218,86)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Timeline+of+Impressionism</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1066FF1B-E001-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="832" y="2479" w="218" h="86" zOrder="32">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="fun_facts">
+          <area shape="0" alt="" ID="{405E758A-0502-EA11-A940-ACDE48001122}" coords="(0,0,218,86)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="8089DE67-E001-EA11-A940-ACDE48001122" controlTypeID="Image" x="0" y="2616" w="1100" h="257" zOrder="33"/>
+    <control controlID="82449787-E101-EA11-A940-ACDE48001122" controlTypeID="Label" x="526" y="2730" w="88" h="38" zOrder="34">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Footer</text>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>.AppleSystemUIFont</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

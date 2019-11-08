@@ -1,0 +1,99 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="FC3B63C5-8500-EA11-B9E6-ACDE48001122" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="3000" mobileScreenScale="0">
+  <controls controlCount="13">
+    <control controlID="4A8EA1F2-E101-EA11-A940-ACDE48001122" controlTypeID="MenuBar" x="0" y="0" w="1100" h="48" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="9A3B0FBE-3400-EA11-B9B8-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Impressionism+Finder">
+          <area shape="0" alt="" ID="{EC5313A8-9000-EA11-B9E6-ACDE48001122}" coords="(0,0,164,48)"/>
+        </link>
+        <link targetPageID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Painting">
+          <area shape="0" alt="" ID="{A05913A8-9000-EA11-B9E6-ACDE48001122}" coords="(164,0,245,48)"/>
+        </link>
+        <link targetPageID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Artist">
+          <area shape="0" alt="" ID="{0E5A13A8-9000-EA11-B9E6-ACDE48001122}" coords="(245,0,309,48)"/>
+        </link>
+        <link targetPageID="FC3B63C5-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Museum">
+          <area shape="0" alt="" ID="{7C5A13A8-9000-EA11-B9E6-ACDE48001122}" coords="(309,0,394,48)"/>
+        </link>
+        <link targetPageID="A8A64CD9-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Recommendation">
+          <area shape="0" alt="" ID="{946013A8-9000-EA11-B9E6-ACDE48001122}" coords="(394,0,535,48)"/>
+        </link>
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Fun+Facts">
+          <area shape="0" alt="" ID="{0C6113A8-9000-EA11-B9E6-ACDE48001122}" coords="(535,0,627,48)"/>
+        </link>
+        <link targetPageID="76920E12-8600-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Contact+Me+">
+          <area shape="0" alt="" ID="{ECBC1FDB-E101-EA11-A940-ACDE48001122}" coords="(627,0,734,48)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Impressionism+Finder%2CPainting%2CArtist%2CMuseum%2CRecommendation%2CFun+Facts%2CContact+Me+</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+    </control>
+    <control controlID="9471EAED-E301-EA11-A940-ACDE48001122" controlTypeID="Label" x="45" y="78" w="418" h="71" zOrder="1">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Find+by+Museum</text>
+      <textColor>4294940928</textColor>
+      <textSize>60</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="56AB0649-E401-EA11-A940-ACDE48001122" controlTypeID="Image" x="50" y="479" w="1000" h="600" zOrder="2"/>
+    <control controlID="F060B27F-E401-EA11-A940-ACDE48001122" controlTypeID="Image" x="50" y="1281" w="1000" h="600" zOrder="3"/>
+    <control controlID="E8067687-E401-EA11-A940-ACDE48001122" controlTypeID="Label" x="51" y="338" w="734" h="38" zOrder="4">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>World+Map+on+Museums+with+Impressionism+Paintings</text>
+      <textColor>4294940928</textColor>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9672993A-E501-EA11-A940-ACDE48001122" controlTypeID="Image" x="45" y="2098" w="1000" h="600" zOrder="5"/>
+    <control controlID="92D241A9-E501-EA11-A940-ACDE48001122" controlTypeID="Image" x="0" y="2784" w="1100" h="257" zOrder="6"/>
+    <control controlID="30AE773F-0402-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="51" y="184" w="994" h="131" zOrder="7">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>In+at+lorem+quam.+Curabitur+in+massa+tristique%2C+laoreet+quam+in%2C+mattis+neque.+Donec+sagittis+gravida+ipsum+sit+amet+consequat.+Vivamus+a+efficitur+sapien.+Vestibulum+in+ultrices+lorem.+Integer+ultricies+ipsum+et+risus+efficitur%2C+vitae+posuere+nibh+mollis.+Vestibulum+cursus+elementum+augue%2C+a+bibendum+tellus+eleifend+a.+Praesent+viverra+tortor+sit+amet+varius+ornare.+Vivamus+maximus+neque+id+enim+suscipit+vestibulum.%0AIn+at+lorem+quam.+Curabitur+in+massa+tristique%2C+laoreet+quam+in%2C+mattis+neque.+Donec+sagittis+gravida+ipsum+sit+amet+consequat.+Vivamus+a+efficitur+sapien.+Vestibulum+in+ultrices+lorem.+Integer+ultricies+ipsum+et+risus+efficitur%2C+vitae+posuere+nibh+mollis.+Vestibulum+cursus+elementum+augue%2C+a+bibendum+tellus+eleifend+a.+Praesent+viverra+tortor+sit+amet+varius+ornare.+Vivamus+maximus+neque+id+enim+suscipit+vestibulum.</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="565A3F5F-0402-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="56" y="386" w="994" h="107" zOrder="8">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>In+at+lorem+quam.+Curabitur+in+massa+tristique%2C+laoreet+quam+in%2C+mattis+neque.+Donec+sagittis+gravida+ipsum+sit+amet+consequat.+Vivamus+a+efficitur+sapien.+Vestibulum+in+ultrices+lorem.+Integer+ultricies+ipsum+et+risus+efficitur%2C+vitae+posuere+nibh+mollis.+Vestibulum+cursus+elementum+augue%2C+a+bibendum+tellus+eleifend+a.+Praesent+viverra+tortor+sit+amet+varius+ornare.+Vivamus+maximus+neque+id+enim+suscipit+vestibulum.%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="54B4C076-0402-EA11-A940-ACDE48001122" controlTypeID="Label" x="51" y="1136" w="460" h="38" zOrder="9">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Impressionism+Museum+Overview</text>
+      <textColor>4294940928</textColor>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="EC81ABC1-0402-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="51" y="1189" w="999" h="71" zOrder="10">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Gallery+view%3A+all+museums(name%2C+picture%2C+location+%2B+opening+hours+%2B+ticket+booking%2Bofficial+website%2Bshops%2C+has+what+painting)%0AGallery+view%3A+all+museums(name%2C+picture%2C+official+website%2Bshops%2C+has+what+painting)%0AGallery+view%3A+all+museums(name%2C+picture%2C+official+website%2Bshops%2C+has+what+painting)</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="42907317-0502-EA11-A940-ACDE48001122" controlTypeID="Label" x="51" y="1944" w="315" h="38" zOrder="11">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Find+by+Museum+Name</text>
+      <textColor>4294940928</textColor>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1A145B29-0502-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="51" y="2005" w="999" h="71" zOrder="12">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>jQuery+Table%3A+Museums+name+%2B+Location+%2B+opening+hours+%2B+ticket+booking%0AjQuery+Table%3A+Museums+name+%2B+Location+%2B+opening+hours+%2B+ticket+booking%0AjQuery+Table%3A+Museums+name+%2B+Location+%2B+opening+hours+%2B+ticket+booking</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>.AppleSystemUIFont</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

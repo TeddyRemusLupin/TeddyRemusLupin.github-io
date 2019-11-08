@@ -1,0 +1,143 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="A8A64CD9-8500-EA11-B9E6-ACDE48001122" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="4000" mobileScreenScale="0">
+  <controls controlCount="21">
+    <control controlID="E80CDDF4-E101-EA11-A940-ACDE48001122" controlTypeID="MenuBar" x="0" y="0" w="1100" h="48" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="9A3B0FBE-3400-EA11-B9B8-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Impressionism+Finder">
+          <area shape="0" alt="" ID="{EC5313A8-9000-EA11-B9E6-ACDE48001122}" coords="(0,0,164,48)"/>
+        </link>
+        <link targetPageID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Painting">
+          <area shape="0" alt="" ID="{A05913A8-9000-EA11-B9E6-ACDE48001122}" coords="(164,0,245,48)"/>
+        </link>
+        <link targetPageID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Artist">
+          <area shape="0" alt="" ID="{0E5A13A8-9000-EA11-B9E6-ACDE48001122}" coords="(245,0,309,48)"/>
+        </link>
+        <link targetPageID="FC3B63C5-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Museum">
+          <area shape="0" alt="" ID="{7C5A13A8-9000-EA11-B9E6-ACDE48001122}" coords="(309,0,394,48)"/>
+        </link>
+        <link targetPageID="A8A64CD9-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Recommendation">
+          <area shape="0" alt="" ID="{946013A8-9000-EA11-B9E6-ACDE48001122}" coords="(394,0,535,48)"/>
+        </link>
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Fun+Facts">
+          <area shape="0" alt="" ID="{0C6113A8-9000-EA11-B9E6-ACDE48001122}" coords="(535,0,627,48)"/>
+        </link>
+        <link targetPageID="76920E12-8600-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Contact+Me+">
+          <area shape="0" alt="" ID="{ECBC1FDB-E101-EA11-A940-ACDE48001122}" coords="(627,0,734,48)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Impressionism+Finder%2CPainting%2CArtist%2CMuseum%2CRecommendation%2CFun+Facts%2CContact+Me+</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+    </control>
+    <control controlID="344BF9CC-E501-EA11-A940-ACDE48001122" controlTypeID="Label" x="45" y="78" w="448" h="71" zOrder="1">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Recommendation</text>
+      <textColor>4294940928</textColor>
+      <textSize>60</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="5AF714E9-E501-EA11-A940-ACDE48001122" controlTypeID="Image" x="50" y="429" w="1000" h="600" zOrder="2"/>
+    <control controlID="E200C8EA-E501-EA11-A940-ACDE48001122" controlTypeID="Label" x="250" y="721" w="642" h="38" zOrder="3">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>bar+chart%3A+number+of+paintings+in+each+museum</text>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="70B529FB-E501-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="49" y="1074" w="1000" h="132" zOrder="4">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>words+for+recommendation</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="481A0231-E601-EA11-A940-ACDE48001122" controlTypeID="Image" x="49" y="1436" w="619" h="370" zOrder="5">
+      <URL>C4FD67B2C811BFE1FED49C0FA0BE7790.jpg</URL>
+    </control>
+    <control controlID="968D4649-E601-EA11-A940-ACDE48001122" controlTypeID="Image" x="426" y="1865" w="619" h="370" zOrder="6">
+      <URL>C4FD67B2C811BFE1FED49C0FA0BE7790.jpg</URL>
+    </control>
+    <control controlID="0ACC1D2D-E701-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="49" y="1865" w="320" h="370" zOrder="7">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>map+of+north+america</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4AEA2E4A-E701-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="729" y="1436" w="320" h="370" zOrder="8">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>map+of+Europe</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="24A46C78-E701-EA11-A940-ACDE48001122" controlTypeID="Label" x="49" y="1276" w="331" h="38" zOrder="9">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Recommenation+by+area</text>
+      <textColor>4294940928</textColor>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="92619894-E701-EA11-A940-ACDE48001122" controlTypeID="Image" x="49" y="2298" w="619" h="370" zOrder="10">
+      <URL>C4FD67B2C811BFE1FED49C0FA0BE7790.jpg</URL>
+    </control>
+    <control controlID="202655B2-E701-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="725" y="2298" w="320" h="370" zOrder="11">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>map+of+other+area</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="907BD20F-E801-EA11-A940-ACDE48001122" controlTypeID="Label" x="49" y="269" w="760" h="38" zOrder="12">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Recommended+by+number+of+paintings+in+each+museum</text>
+      <textColor>4294940928</textColor>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7098BC72-E901-EA11-A940-ACDE48001122" controlTypeID="Label" x="49" y="2738" w="378" h="42" zOrder="13">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Recommenation+by+artist(s)</text>
+      <textColor>4294940928</textColor>
+      <textSize>32</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7E868B7A-E901-EA11-A940-ACDE48001122" controlTypeID="Image" x="49" y="2906" w="1000" h="600" zOrder="14"/>
+    <control controlID="7CED0F8C-E901-EA11-A940-ACDE48001122" controlTypeID="TextInput" x="49" y="3555" w="1000" h="108" zOrder="15">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>by+artist's+description%2C+table%3Amuseums+and+artists</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="96CF68D2-E901-EA11-A940-ACDE48001122" controlTypeID="Image" x="0" y="3743" w="1100" h="257" zOrder="16"/>
+    <control controlID="7ABE20C1-0602-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="49" y="168" w="1000" h="71" zOrder="17">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Phasellus+porta+fermentum+est+et+eleifend.+Pellentesque+dapibus+fermentum+tortor%2C+non+fermentum+sem+vehicula+sit+amet.+Vivamus+sed+justo+nisl.+Nunc+suscipit+scelerisque+ex%2C+at+mattis+ipsum+elementum+sed.+Cras+eget+neque+ut+justo+dignissim+tempus.+In+eu+mi+sagittis%2C+fringilla+lorem+ac%2C+porttitor+ante.+Duis+fermentum%2C+leo+eget+gravida+cursus%2C+eros+mi+congue+est%2C+et+aliquam+lectus+enim+ac+ipsum.+Cras+eu+lacus+non+odio+laoreet+fringilla.+Curabitur+eget+enim+vitae+velit+tincidunt+aliquam.+Aliquam+nec+tortor+eu+sapien+efficitur+rhoncus+eu+vel+ante.%0D%0A</text>
+    </control>
+    <control controlID="B25144D7-0602-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="49" y="332" w="1000" h="71" zOrder="18">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Phasellus+porta+fermentum+est+et+eleifend.+Pellentesque+dapibus+fermentum+tortor%2C+non+fermentum+sem+vehicula+sit+amet.+Vivamus+sed+justo+nisl.+Nunc+suscipit+scelerisque+ex%2C+at+mattis+ipsum+elementum+sed.+Cras+eget+neque+ut+justo+dignissim+tempus.+In+eu+mi+sagittis%2C+fringilla+lorem+ac%2C+porttitor+ante.+Duis+fermentum%2C+leo+eget+gravida+cursus%2C+eros+mi+congue+est%2C+et+aliquam+lectus+enim+ac+ipsum.+Cras+eu+lacus+non+odio+laoreet+fringilla.+Curabitur+eget+enim+vitae+velit+tincidunt+aliquam.+Aliquam+nec+tortor+eu+sapien+efficitur+rhoncus+eu+vel+ante.%0D%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6004E50C-0702-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="49" y="1335" w="1000" h="71" zOrder="19">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Phasellus+porta+fermentum+est+et+eleifend.+Pellentesque+dapibus+fermentum+tortor%2C+non+fermentum+sem+vehicula+sit+amet.+Vivamus+sed+justo+nisl.+Nunc+suscipit+scelerisque+ex%2C+at+mattis+ipsum+elementum+sed.+Cras+eget+neque+ut+justo+dignissim+tempus.+In+eu+mi+sagittis%2C+fringilla+lorem+ac%2C+porttitor+ante.+Duis+fermentum%2C+leo+eget+gravida+cursus%2C+eros+mi+congue+est%2C+et+aliquam+lectus+enim+ac+ipsum.+Cras+eu+lacus+non+odio+laoreet+fringilla.+Curabitur+eget+enim+vitae+velit+tincidunt+aliquam.+Aliquam+nec+tortor+eu+sapien+efficitur+rhoncus+eu+vel+ante.%0D%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="BA7A105C-0702-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="49" y="2804" w="994" h="71" zOrder="20">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Maecenas+pretium+justo+at+nunc+imperdiet%2C+id+bibendum+ipsum+feugiat.+Nunc+vel+nisi+at+risus+rutrum+venenatis+eu+a+est.+Nam+suscipit+pretium+placerat.+Quisque+aliquet+dictum+sagittis.+Mauris+felis+neque%2C+imperdiet+consectetur+iaculis+eu%2C+dignissim+at+orci.+Nullam+pretium+orci+elit%2C+quis+elementum+arcu+pharetra+id.+Donec+pretium+velit+a+ipsum+ullamcorper+sodales.+Pellentesque+ut+neque+pulvinar%2C+congue+ipsum+id%2C+euismod+ex.+Donec+lacinia+orci+id+risus+tempor+fermentum.%0D%0A</text>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>.AppleSystemUIFont</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

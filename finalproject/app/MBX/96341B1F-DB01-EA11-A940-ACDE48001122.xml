@@ -1,0 +1,99 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="96341B1F-DB01-EA11-A940-ACDE48001122" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="3400" mobileScreenScale="0">
+  <controls controlCount="13">
+    <control controlID="6E7889F7-E101-EA11-A940-ACDE48001122" controlTypeID="MenuBar" x="0" y="0" w="1100" h="48" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="9A3B0FBE-3400-EA11-B9B8-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Impressionism+Finder">
+          <area shape="0" alt="" ID="{EC5313A8-9000-EA11-B9E6-ACDE48001122}" coords="(0,0,164,48)"/>
+        </link>
+        <link targetPageID="84D0DBAD-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Painting">
+          <area shape="0" alt="" ID="{A05913A8-9000-EA11-B9E6-ACDE48001122}" coords="(164,0,245,48)"/>
+        </link>
+        <link targetPageID="F21BE4B4-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Artist">
+          <area shape="0" alt="" ID="{0E5A13A8-9000-EA11-B9E6-ACDE48001122}" coords="(245,0,309,48)"/>
+        </link>
+        <link targetPageID="FC3B63C5-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Museum">
+          <area shape="0" alt="" ID="{7C5A13A8-9000-EA11-B9E6-ACDE48001122}" coords="(309,0,394,48)"/>
+        </link>
+        <link targetPageID="A8A64CD9-8500-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Recommendation">
+          <area shape="0" alt="" ID="{946013A8-9000-EA11-B9E6-ACDE48001122}" coords="(394,0,535,48)"/>
+        </link>
+        <link targetPageID="96341B1F-DB01-EA11-A940-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Fun+Facts">
+          <area shape="0" alt="" ID="{0C6113A8-9000-EA11-B9E6-ACDE48001122}" coords="(535,0,627,48)"/>
+        </link>
+        <link targetPageID="76920E12-8600-EA11-B9E6-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Contact+Me+">
+          <area shape="0" alt="" ID="{ECBC1FDB-E101-EA11-A940-ACDE48001122}" coords="(627,0,734,48)"/>
+        </link>
+      </links>
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Impressionism+Finder%2CPainting%2CArtist%2CMuseum%2CRecommendation%2CFun+Facts%2CContact+Me+</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+    </control>
+    <control controlID="0E6019DC-EA01-EA11-A940-ACDE48001122" controlTypeID="Image" x="55" y="568" w="990" h="600" zOrder="1"/>
+    <control controlID="A84E40F5-EA01-EA11-A940-ACDE48001122" controlTypeID="Label" x="45" y="78" w="245" h="71" zOrder="2">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Fun+Facts</text>
+      <textColor>4294940928</textColor>
+      <textSize>60</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E01C5C1E-EB01-EA11-A940-ACDE48001122" controlTypeID="Label" x="55" y="1248" w="518" h="29" zOrder="3">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Fact+2%3A+Relationships+among+Impressionism+Artists</text>
+      <textColor>4294940928</textColor>
+      <textSize>24</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3A0BC625-EB01-EA11-A940-ACDE48001122" controlTypeID="Image" x="55" y="1500" w="990" h="600" zOrder="4"/>
+    <control controlID="483B3942-EB01-EA11-A940-ACDE48001122" controlTypeID="Label" x="55" y="2181" w="444" h="29" zOrder="5">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Fact+3%3A+Timeline+of+Impressionism+Paintings</text>
+      <textColor>4294940928</textColor>
+      <textSize>24</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1612F347-EB01-EA11-A940-ACDE48001122" controlTypeID="Image" x="55" y="2432" w="1000" h="600" zOrder="6"/>
+    <control controlID="9CEDDFA7-0002-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="55" y="412" w="990" h="136" zOrder="7">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Nunc+a+sagittis+elit%2C+eget+vehicula+ligula.+Etiam+consequat+tristique+metus%2C+maximus+condimentum+tellus+varius+nec.+Nullam+eget+urna+eu+risus+condimentum+semper.+Donec+dictum+felis+ut+efficitur+aliquam.+Curabitur+sollicitudin+ligula+sit+amet+euismod+imperdiet.+Etiam+lobortis+vitae+turpis+euismod+gravida.+Integer+sit+amet+lectus+nec+mauris+ullamcorper+faucibus.+Cras+magna+turpis%2C+varius+vel+vestibulum+id%2C+aliquam+ac+felis.+Pellentesque+habitant+morbi+tristique+senectus+et+netus+et+malesuada+fames+ac+turpis+egestas.+Pellentesque+vel+finibus+odio.+Nulla+maximus+metus+accumsan+enim+auctor+consectetur.+Integer+a+magna+eget+ipsum+tincidunt+congue+a+vel+ex.+Pellentesque+vulputate%2C+mauris+fermentum+finibus+lobortis%2C+orci+dui+dignissim+elit%2C+consectetur+viverra+ligula+justo+non+est.+Nam+fringilla+dictum+nibh+eu+lacinia.%0D%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4EFA2B8D-0102-EA11-A940-ACDE48001122" controlTypeID="Label" x="55" y="354" w="568" h="29" zOrder="8">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Fact+1%3A+Top+58+Most+Expensive+Impressionism+Paintings</text>
+      <textColor>4294940928</textColor>
+      <textSize>24</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="0809A39D-0102-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="55" y="1317" w="990" h="136" zOrder="9">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Nunc+a+sagittis+elit%2C+eget+vehicula+ligula.+Etiam+consequat+tristique+metus%2C+maximus+condimentum+tellus+varius+nec.+Nullam+eget+urna+eu+risus+condimentum+semper.+Donec+dictum+felis+ut+efficitur+aliquam.+Curabitur+sollicitudin+ligula+sit+amet+euismod+imperdiet.+Etiam+lobortis+vitae+turpis+euismod+gravida.+Integer+sit+amet+lectus+nec+mauris+ullamcorper+faucibus.+Cras+magna+turpis%2C+varius+vel+vestibulum+id%2C+aliquam+ac+felis.+Pellentesque+habitant+morbi+tristique+senectus+et+netus+et+malesuada+fames+ac+turpis+egestas.+Pellentesque+vel+finibus+odio.+Nulla+maximus+metus+accumsan+enim+auctor+consectetur.+Integer+a+magna+eget+ipsum+tincidunt+congue+a+vel+ex.+Pellentesque+vulputate%2C+mauris+fermentum+finibus+lobortis%2C+orci+dui+dignissim+elit%2C+consectetur+viverra+ligula+justo+non+est.+Nam+fringilla+dictum+nibh+eu+lacinia.%0D%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="12FD59C0-0102-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="55" y="175" w="967" h="136" zOrder="10">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Nunc+a+sagittis+elit%2C+eget+vehicula+ligula.+Etiam+consequat+tristique+metus%2C+maximus+condimentum+tellus+varius+nec.+Nullam+eget+urna+eu+risus+condimentum+semper.+Donec+dictum+felis+ut+efficitur+aliquam.+Curabitur+sollicitudin+ligula+sit+amet+euismod+imperdiet.+Etiam+lobortis+vitae+turpis+euismod+gravida.+Integer+sit+amet+lectus+nec+mauris+ullamcorper+faucibus.+Cras+magna+turpis%2C+varius+vel+vestibulum+id%2C+aliquam+ac+felis.+Pellentesque+habitant+morbi+tristique+senectus+et+netus+et+malesuada+fames+ac+turpis+egestas.+Pellentesque+vel+finibus+odio.+Nulla+maximus+metus+accumsan+enim+auctor+consectetur.+Integer+a+magna+eget+ipsum+tincidunt+congue+a+vel+ex.+Pellentesque+vulputate%2C+mauris+fermentum+finibus+lobortis%2C+orci+dui+dignissim+elit%2C+consectetur+viverra+ligula+justo+non+est.+Nam+fringilla+dictum+nibh+eu+lacinia.%0D%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="CE4E2370-0202-EA11-A940-ACDE48001122" controlTypeID="TextArea" x="55" y="2250" w="990" h="136" zOrder="11">
+      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Nunc+a+sagittis+elit%2C+eget+vehicula+ligula.+Etiam+consequat+tristique+metus%2C+maximus+condimentum+tellus+varius+nec.+Nullam+eget+urna+eu+risus+condimentum+semper.+Donec+dictum+felis+ut+efficitur+aliquam.+Curabitur+sollicitudin+ligula+sit+amet+euismod+imperdiet.+Etiam+lobortis+vitae+turpis+euismod+gravida.+Integer+sit+amet+lectus+nec+mauris+ullamcorper+faucibus.+Cras+magna+turpis%2C+varius+vel+vestibulum+id%2C+aliquam+ac+felis.+Pellentesque+habitant+morbi+tristique+senectus+et+netus+et+malesuada+fames+ac+turpis+egestas.+Pellentesque+vel+finibus+odio.+Nulla+maximus+metus+accumsan+enim+auctor+consectetur.+Integer+a+magna+eget+ipsum+tincidunt+congue+a+vel+ex.+Pellentesque+vulputate%2C+mauris+fermentum+finibus+lobortis%2C+orci+dui+dignissim+elit%2C+consectetur+viverra+ligula+justo+non+est.+Nam+fringilla+dictum+nibh+eu+lacinia.%0D%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="084A9AD2-0202-EA11-A940-ACDE48001122" controlTypeID="Image" x="0" y="3133" w="1100" h="257" zOrder="12"/>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>.AppleSystemUIFont</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>
