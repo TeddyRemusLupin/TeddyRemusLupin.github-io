@@ -70,13 +70,13 @@ $(document).ready(function(){
                 var table3_items = [];
                 var i = 0;
                 var airtable_read_endpoint =
-                "https://api.airtable.com/v0/appDdtSXGZCSxIRLx/The%20Quality%20of%20Museums?api_key=keyLZQGPBz655pCmy";
+                "https://api.airtable.com/v0/appAsbRyseXQgRC04/Table%201?api_key=keywrQWiluRxtIAp8";
                 var table3_dataSet = [];
                 $.getJSON(airtable_read_endpoint, function(result) {
                        $.each(result.records, function(key,value) {
                            table3_items = [];
-                               table3_items.push(value.fields.Quality);
-                               table3_items.push(value.fields.Quantity);
+                               table3_items.push(value.fields.country);
+                               table3_items.push(value.fields.number);
   
                                table3_dataSet.push(table3_items);
                                console.log(table3_items);
@@ -87,9 +87,9 @@ $(document).ready(function(){
                            retrieve: true,
                            ordering: false,
                            columns: [
-                               { title: "Museum Quality",
+                               { title: "Country",
                                  defaultContent:""},
-                               { title: "Museum Quantity",
+                               { title: "Numbers of Museums with Monet",
                                  defaultContent:""},
                              ] // rmf columns
                          } ); // end dataTable
@@ -107,8 +107,8 @@ $(document).ready(function(){
                        },
   
                        axis: {
-                       x: {label: 'Museums Quality'},
-                       y: {label: 'Quantity'},
+                       x: {label: 'Country'},
+                       y: {label: 'Numbers of Museums with Monet'},
                        },
                        tooltip: {
                        grouped: false
