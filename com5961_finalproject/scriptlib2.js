@@ -51,8 +51,8 @@ $(document).ready(function(){
            $.each(result.records, function(key,value) {
                items = {};
                    items["name"] = value.fields.name;
-                   items["url"] = value.fields.website;
-                   items["image_url"] = value.fields.image_url;
+                   items["url"] = value.fields.url;
+                   items["img_url"] = value.fields.imge_url;
                    items["latitud"] = value.fields.Lat;
                    items["longitud"] = value.fields.Lng;
                    data.push(items);
@@ -78,8 +78,8 @@ $(document).ready(function(){
            $.each(result.records, function(key,value) {
                map2_items = {};
                    map2_items["name"] = value.fields.name;
-                   map2_items["url"] = value.fields.website;
-                   map2_items["image_url"] = value.fields.image_url;
+                   map2_items["url"] = value.fields.url;
+                   map2_items["img_url"] = value.fields.img_url;
                    map2_items["latitud"] = value.fields.Lat;
                    map2_items["longitud"] = value.fields.Lng;
                    map2_data.push(map2_items);
@@ -106,8 +106,8 @@ $(document).ready(function(){
            $.each(result.records, function(key,value) {
                map3_items = {};
                    map3_items["name"] = value.fields.name;
-                   map3_items["url"] = value.fields.website;
-                   map3_items["image_url"] = value.fields.image_url;
+                   map3_items["url"] = value.fields.url;
+                   map3_items["img_url"] = value.fields.img_url;
                    map3_items["latitud"] = value.fields.Lat;
                    map3_items["longitud"] = value.fields.Lng;
                    map3_data.push(map3_items);
@@ -132,8 +132,8 @@ $(document).ready(function(){
            $.each(result.records, function(key,value) {
                map4_items = {};
                    map4_items["name"] = value.fields.name;
-                   map4_items["url"] = value.fields.website;
-                   map4_items["image_url"] = value.fields.image_url;
+                   map4_items["url"] = value.fields.url;
+                   map4_items["img_url"] = value.fields.img_url;
                    map4_items["latitud"] = value.fields.Lat;
                    map4_items["longitud"] = value.fields.Lng;
                    map4_data.push(map4_items);
