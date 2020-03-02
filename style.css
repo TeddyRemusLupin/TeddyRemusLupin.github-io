@@ -4,40 +4,40 @@
   border-color: lightblue;
 }
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: black;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #f2f794;
+  color: black;
 }
 .navbar-default .navbar-text {
-  color: #ffffff;
+  color: black;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: black;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #f2f794;
+  color:black;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #f2f794;
-  background-color: #fa5105;
+  color:black;
+  background-color:paleturquoise;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #f2f794;
-  background-color: #fa5105;
+  color: black;
+  background-color:paleturquoise;
 }
 .navbar-default .navbar-toggle {
-  border-color: #fa5105;
+  border-color:paleturquoise;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fa5105;
+  background-color:paleturquoise;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff;
@@ -86,7 +86,7 @@
 }
 
 /*************************************************************************/
-/**                          Bernard's Customized CSS Codes             **/
+/**                          Lelou's Customized CSS Codes             **/
 /*************************************************************************/
 
 .footer {
@@ -94,7 +94,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #1a3959;
+  background-color: cadetblue;
   color: white;
   text-align: center;
   padding-top: 13px;
@@ -113,7 +113,7 @@ header {
 
 .fa-1x {
   font-size: 3em;
-  color: white;
+  color:white;
 }
 
 .cover h1 {
@@ -171,8 +171,8 @@ header {
 }
 
 .navbar-default {
-  background-color: #6a053d;
-  border-color: #762c0b;
+  background-color: honeydew;
+  border-color: paleturquoise;
   padding: 10px;
 }
 
@@ -185,7 +185,7 @@ header {
     font-size: 22px !important;
     border: none;
     outline: none;
-    background-color: #fa5105;
+    background-color: paleturquoise;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -202,3 +202,4 @@ header {
 .float-right {
   float: right!important;
 }
+
